@@ -23,7 +23,7 @@ function setup() {
   monkey = createSprite(50,160,20,50);
   monkey.addAnimation("running", monkey_running);
   monkey.scale = 0.1;
-  monkey.debug = true;
+  //monkey.debug = true;
   monkey.setCollider("rectangle", 0, 0, monkey.width,monkey.height - 5);
   
   ground = createSprite(200,200,400,20);
