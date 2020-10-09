@@ -70,7 +70,7 @@ function draw() {
     monkey.destroy();
     obstaclesGroup.setLifetimeEach(-1);
     FoodGroup.setLifetimeEach(-1);
-     
+     survivalTime = 0;
     obstaclesGroup.setVelocityXEach(0);
     FoodGroup.setVelocityXEach(0);   
   }
